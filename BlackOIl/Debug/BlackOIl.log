@@ -1,0 +1,23 @@
+﻿Build started 3/24/2016 1:14:33 PM.
+     1>Project "C:\Users\yuz899\Google Drive\optimization\Simulator\BlackOilSimulator\BlackOIl\BlackOIl\BlackOIl.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DiscreteProblem.cpp main.cpp
+         main.cpp
+     1>c:\users\yuz899\google drive\optimization\simulator\blackoilsimulator\blackoil\blackoil\intel_pardiso.hpp(34): warning C4351: new behavior: elements of array 'GENSOL::Intel_Pardiso::pt' will be default initialized
+     1>c:\users\yuz899\google drive\optimization\simulator\blackoilsimulator\blackoil\blackoil\intel_pardiso.hpp(34): warning C4351: new behavior: elements of array 'GENSOL::Intel_Pardiso::iparm' will be default initialized
+     1>c:\users\yuz899\google drive\optimization\simulator\blackoilsimulator\blackoil\blackoil\intel_prec_gmres.hpp(32): warning C4244: '=' : conversion from 'double' to 'size_t', possible loss of data
+                 c:\users\yuz899\google drive\optimization\simulator\blackoilsimulator\blackoil\blackoil\intel_prec_gmres.hpp(22) : while compiling class template member function 'GENSOL::Intel_Prec_GMRES<GENSOL::Intel_ILU0>::Intel_Prec_GMRES(size_t,size_t)'
+                 c:\users\yuz899\google drive\optimization\simulator\blackoilsimulator\blackoil\blackoil\r_precond_solver.hpp(22) : see reference to function template instantiation 'GENSOL::Intel_Prec_GMRES<GENSOL::Intel_ILU0>::Intel_Prec_GMRES(size_t,size_t)' being compiled
+                 c:\users\yuz899\google drive\optimization\simulator\blackoilsimulator\blackoil\blackoil\r_precond_solver.hpp(87) : see reference to class template instantiation 'GENSOL::Intel_Prec_GMRES<GENSOL::Intel_ILU0>' being compiled
+                 c:\users\yuz899\google drive\optimization\simulator\blackoilsimulator\blackoil\blackoil\main.cpp(87) : see reference to class template instantiation 'GENSOL::R_Precond_Solver<GENSOL::Intel_Prec_GMRES<GENSOL::Intel_ILU0>>' being compiled
+         DiscreteProblem.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\yuz899\Google Drive\optimization\Simulator\BlackOilSimulator\BlackOIl\Debug\BlackOIl.exe" /INCREMENTAL /NOLOGO mkl_intel_c_dll.lib mkl_intel_thread_dll.lib mkl_core_dll.lib libiomp5md.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\yuz899\Google Drive\optimization\Simulator\BlackOilSimulator\BlackOIl\Debug\BlackOIl.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\yuz899\Google Drive\optimization\Simulator\BlackOilSimulator\BlackOIl\Debug\BlackOIl.lib" /MACHINE:X86 Debug\DiscreteProblem.obj
+         Debug\main.obj
+         BlackOIl.vcxproj -> C:\Users\yuz899\Google Drive\optimization\Simulator\BlackOilSimulator\BlackOIl\Debug\BlackOIl.exe
+     1>Done Building Project "C:\Users\yuz899\Google Drive\optimization\Simulator\BlackOilSimulator\BlackOIl\BlackOIl\BlackOIl.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.29
